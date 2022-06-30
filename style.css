@@ -73,7 +73,7 @@ section.text> p {
 }
 section.preço{
     width: 100%;
-    height: 35px;
+    height: 40px;
     padding: 5px;
     
 }
@@ -81,7 +81,8 @@ section.preço>p{
     display: inline-block;
     font-size: 0.9em;
     text-decoration: line-through;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: -12px;
     
 }
 
@@ -94,22 +95,20 @@ section.preço > h3 {
     font-size: 2em;
     padding: 5px;
 }
-section.botao{
-    width: 80%;
-    height: 45px;
-    margin-top: 30px;
-    margin-left: 8px;
+
+.botao{
+    display: block;
     background-color: var(---Darkcyan);
-   
-}
-section.botao>buttom{
-    background-color: var(---Darkcyan);
+    width: 75%;
     color: var(--White);
-    padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
     text-decoration: none;
-}   
-    
+    font-weight: bolder;
+    text-align: center;
+}  
+
    
     
     
